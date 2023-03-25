@@ -50,7 +50,11 @@
 
 # 고민한거
 1. 모달을 왜 Calendar과 같은 위치에 두나
-Portal을 사용하면 최상단에 modal이 나올텐데 저 위치에 있을 필요가 있을까 고민. modal은 calendar위에 띄우는거니 레이아웃? 구조상 저 위치가 맞지 않을까
+- Portal을 사용하면 최상단에 modal이 나올텐데 저 위치에 있을 필요가 있을까 고민. modal은 calendar위에 띄우는거니 레이아웃? 구조상 저 위치가 맞지 않을까
+2. 구현 할때 순서
+- 최상위 레이아웃 부터 생각하며 ui 그리기
+- 최하위 요소 부터 로직 생각하기
+- 최상위 요소부터 로직 
 # 알게된거
 ## 컴포넌트 추상화
 1. https://fe-developers.kakaoent.com/2022/221020-component-abstraction/
