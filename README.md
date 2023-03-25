@@ -37,9 +37,14 @@
                - TodoActions
                 - TodoActionButton
 # 로직
-## Calendat
+## Calendar
 - 달력번호 클릭시 selectedDateState변경
-- 달력번호 더블클릭시
+- 달력번호 더블클릭시 TodoStatisticsModalOpen을 true로 변경, selectedDateState변경
+- td 더블클릭시 TodoFormModalOpen을 true로 변경, selectedDateState변경
+- todo 클릭시 selectedTodo 변경
+- ㅈ
+
+
 # 고민한거
 ## 모달을 왜 Calendar과 같은 위치에 두나
 Portal을 사용하면 최상단에 modal이 나올텐데 저 위치에 있을 필요가 있을까 고민. modal은 calendar위에 띄우는거니 레이아웃? 구조상 저 위치가 맞지 않을까
