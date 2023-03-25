@@ -42,8 +42,10 @@
 - 달력번호 더블클릭시 TodoStatisticsModalOpen을 true로 변경, selectedDateState변경
 - td 더블클릭시 TodoFormModalOpen을 true로 변경, selectedDateState변경
 - todo 클릭시 selectedTodo 변경
-- ㅈ
-
+- 전체 todo 클릭시 TodoStatisticsModalOpen true로 변경
+## TodoFormModal
+- input 엔터시 todoList추가, input포커스와 input value삭제, TodoFormModal false로 변경 
+## TodoStatisticsModalㅈ
 
 # 고민한거
 ## 모달을 왜 Calendar과 같은 위치에 두나
@@ -60,3 +62,4 @@ Portal을 사용하면 최상단에 modal이 나올텐데 저 위치에 있을 �
 https://velog.io/@toyo8/recoil-%EC%9D%B4%EB%9E%80
 ## 더블클릭 이벤트
 ## 키다운 백스페이스
+## 배열에 컴포넌트 넣기
