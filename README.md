@@ -45,7 +45,8 @@
 - 전체 todo 클릭시 TodoStatisticsModalOpen true로 변경
 ## TodoFormModal
 - input 엔터시 todoList추가, input포커스와 input value삭제, TodoFormModal false로 변경 
-## TodoStatisticsModalㅈ
+## TodoStatisticsModal
+- 제거 클릭시 todoList
 
 # 고민한거
 ## 모달을 왜 Calendar과 같은 위치에 두나
